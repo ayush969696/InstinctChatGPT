@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:id="@+id/chat"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/chatgpt"
+        />
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/chat"
+         android:text="UltraInstinct ChatGPT"
+         android:fontFamily="serif-monospace"
+         android:gravity="center"
+         android:textSize="22sp"
+         android:textColor="@color/white"
+         />
+
+</RelativeLayout>
